@@ -1,0 +1,58 @@
+$bgColor1: #020202;
+$bgColor2: #0D324D;
+$light: #9DA2AB;
+$text1: #7F5A83;
+$text2: #A188A6;
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: $bgColor2;
+    width: 100%;
+    margin: 0;
+    padding: 7px 0;
+
+    p {
+        color: $light;
+        padding-left: 50px;
+        font-size: 50px;
+        margin: 0;
+    }
+}
+
+.main_body {
+    background-color: $bgColor1;
+    margin: 0;
+    width: 100%;
+    padding: 15px;
+
+    h1 {
+        color: $text1;
+        text-align: center;
+    }
+
+    .card {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        img {
+            height: 160px;
+            width: auto;
+            margin-right: 50px;
+        }
+
+        p {
+            height: 130px;
+            width: 500px;
+            margin: 0;
+            padding: 15px;
+            background-color: $bgColor2;
+            color: $text1;
+            font-size: 24px;
+        }
+    }
+}
